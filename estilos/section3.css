@@ -1,0 +1,11 @@
+.section3 {
+    height: 100vh;
+    background-color: var(--preto);
+}
+.section3 h1 {
+    margin-bottom: 30px;
+}
+.contain3__section3 {
+    
+    text-align: center;
+}
