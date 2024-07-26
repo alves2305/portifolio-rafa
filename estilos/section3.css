@@ -9,3 +9,17 @@
     
     text-align: center;
 }
+
+@media (min-width: 769px) and (max-width: 2000px) {
+    .contain3__section3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .botoes-diferencial-section1 {
+        margin-top: 50px;
+        display: flex;
+        gap: 50px;
+    }
+}

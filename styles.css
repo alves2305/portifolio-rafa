@@ -18,19 +18,26 @@
 }
 
 .botao {
-    width: 275px;
+    width: 200px;
     height: 58px;
     border-radius: 25px;
     background-color: transparent;
     border: solid 2px var(--branco);
     color:var(--branco);
     font-family: var(--fonte-principal);
-    
+    box-shadow: 8px 8px 16px  rgba(255, 255, 255, 0.10);
 }
+.botao:hover {
+    scale: 1.04;
+    background-color: var(--cinza-claro);
+}
+
 .botao a{
     text-decoration: none;
     color: var(--branco);
+    font-weight: 500;
 }
+
 
 .paragrafo {
     font-size: 23px;
@@ -44,10 +51,14 @@
     font-size:30px;
     font-weight: 500;
     color:var(--branco) ;
+    
 }
 .titulo-secundario {
     color:var(--cinza-claro) ;
     font-size:20px;
     font-family: var(--fonte-principal);
 
+}
+body {
+    background-color: var(--preto);
 }
