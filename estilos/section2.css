@@ -55,7 +55,7 @@
     margin-top: 10px;
 }
 
-@media (min-width: 769px) and (max-width: 2000px) {
+@media (min-width: 769px) and (max-width: 1366px) {
   .conteudo__section2 {
     margin: 40px 150px;
   }
