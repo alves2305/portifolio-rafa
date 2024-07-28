@@ -56,6 +56,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 1366px) {
+  .section2{
+    height: 120vh;
+  }
   .conteudo__section2 {
     margin: 40px 150px;
   }
