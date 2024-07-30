@@ -2,63 +2,67 @@
 @import url(estilos/section1.css);
 @import url(estilos/section2.css);
 @import url(estilos/section3.css);
+@import url(estilos/section-4.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    /* cores */
-    --verde:#34FF11;
-    --preto:#000000;
-    --branco:#ffffff;
-    --cinza:#222222;
-    --cinza-claro:#696969;
-    /* fonte */
-    --fonte-principal:"Poppins", sans-serif;
-
+  /* cores */
+  --verde: #34ff11;
+  --preto: #000000;
+  --branco: #ffffff;
+  --cinza: #222222;
+  --cinza-claro: #696969;
+  /* fonte */
+  --fonte-principal: "Poppins", sans-serif;
 }
 
 .botao {
-    width: 200px;
-    height: 58px;
-    border-radius: 25px;
-    background-color: transparent;
-    border: solid 2px var(--branco);
-    color:var(--branco);
-    font-family: var(--fonte-principal);
-    box-shadow: 8px 8px 16px  rgba(255, 255, 255, 0.10);
+  width: 200px;
+  height: 58px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: solid 2px var(--branco);
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  box-shadow: 8px 8px 16px rgba(255, 255, 255, 0.1);
 }
 .botao:hover {
-    scale: 1.04;
-    background-color: var(--cinza-claro);
+  scale: 1.04;
+  background-color: var(--cinza-claro);
 }
 
-.botao a{
-    text-decoration: none;
-    color: var(--branco);
-    font-weight: 500;
+.botao a {
+  text-decoration: none;
+  color: var(--branco);
+  font-weight: 500;
 }
-
 
 .paragrafo {
-    font-size: 23px;
-    color: var(--branco);
-    font-family: var(--fonte-principal);
-    
+  font-size: 23px;
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: left;
+  hyphens: auto;
+line-height: 27px;
 }
 
 .titulo-principal {
-    font-family: var(--fonte-principal);
-    font-size:30px;
-    font-weight: 500;
-    color:var(--branco) ;
-    
+  font-family: var(--fonte-principal);
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--branco);
+  text-align: center;
+  
+  
 }
 .titulo-secundario {
-    color:var(--cinza-claro) ;
-    font-size:20px;
-    font-family: var(--fonte-principal);
-
+  color: var(--cinza-claro);
+  font-size: 20px;
+  font-family: var(--fonte-principal);
 }
 body {
-    background-color: var(--preto);
+  background-color: var(--preto);
 }

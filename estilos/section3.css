@@ -1,5 +1,5 @@
 .section3 {
-    height: 100vh;
+    height: 120vh;
     background-color: var(--preto);
   }
   
@@ -16,6 +16,7 @@
     gap: 30px;
     flex-direction: column;
     margin-bottom: 30px;
+    margin-top:30px ;
   }
   
   /* Estilos dos projetos */
