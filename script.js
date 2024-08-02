@@ -33,4 +33,17 @@ function mostrarSkills(tipo) {
   }
 }
 
+function abrirArquivos() {
+  // URL do primeiro arquivo (currículo)
+  const curriculoURL = "arquivos/curriculo.pdf";
+  
+  // URL do segundo arquivo (certificado)
+  const certificadoURL = "arquivos/certificado.pdf";
+
+  // Abrir uma nova aba para o currículo
+  window.open(curriculoURL, '_blank');
+
+  // Abrir uma nova aba para o certificado
+  window.open(certificadoURL, '_blank');
+}
 

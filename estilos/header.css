@@ -3,6 +3,10 @@
     border-bottom: 2px solid var(--verde);
     
 }
+
+.custom-offcanvas {
+    width: 300px !important;
+}
 .header {
     background-color: black;
     height: 10vh;}

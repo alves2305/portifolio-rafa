@@ -26,7 +26,7 @@
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas custom-offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -116,10 +116,10 @@
       
 
       <div class="botoes-section1 botao-diferencial_section1">
-        <button class="botao"><a href="">Download do CV</a>
+        <button onclick="abrirArquivos()" class="botao"><a href="">Download do CV</a>
         </button>
-        <button class="botao">
-          <a href="">Entre em contato</a>
+        <button  class="botao">
+          <a  href="#section5">Entre em contato</a>
         </button>
       </div>
 
@@ -241,6 +241,29 @@
           <div class="skil-17"></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="section5" class="section5">
+    <div class="titulo-principal titulo-principal__section5 ">
+      Entre em contato
+    </div>
+    <div class="contatos__section5">
+
+      <div class="form-container">
+        <form class="form">
+          <div class="form-group">
+            <label for="email">Digite seu e-mail</label>
+            <input type="text" id="email" name="email" required="">
+          </div>
+          <div class="form-group">
+            <label for="textarea">Como eu posso te ajudar?</label>
+            <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+          </div>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
+      
     </div>
   </section>
   
