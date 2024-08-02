@@ -1,0 +1,85 @@
+.section-4 {
+    padding: 0 35px;
+  }
+  
+  .paragrafo {
+    text-align: justify !important;
+  }
+  
+  .botoes-section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+  
+  .contain-skils {
+    position: relative;
+    width: 100%;
+  }
+  
+  .contain-skils-back,
+  .contain-skils-front,
+  .contain-skils-ferramentas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contain-skils-back {
+    z-index: 3;
+  }
+  
+  .contain-skils-front {
+    z-index: 2;
+    display: none;
+  }
+  
+  .contain-skils-ferramentas {
+    z-index: 1;
+    display: none;
+  }
+  
+  /* Estilos para as divs de habilidades */
+  .skil-1, .skil-2, .skil-3, .skil-4, .skil-5, .skil-6,
+  .skil-7, .skil-8, .skil-9, .skil-10, .skil-11,
+  .skil-12, .skil-13, .skil-14, .skil-15, .skil-16, .skil-17 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 16px rgb(83, 143, 217);
+    border-radius: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: black;
+  }
+  
+  .skil-1 { background-image: url(../assets/java.jpg); }
+  .skil-2 { background-image: url(../assets/py.png); }
+  .skil-3 { background-image: url(../assets/sql.png); }
+  .skil-4 { background-image: url(../assets/javaScript.png); }
+  .skil-5 { background-image: url(../assets/php.png); }
+  .skil-6 { background-image: url(../assets/node.png); }
+  .skil-7 { background-image: url(../assets/javaScript.png); }
+  .skil-8 { background-image: url(../assets/css.png); }
+  .skil-9 { background-image: url(../assets/html.png); }
+  .skil-10 { background-image: url(../assets/react.png); }
+  .skil-11 { background-image: url(../assets/bootstrap.png); }
+  .skil-12 { background-image: url(../assets/linux.png); }
+  .skil-13 { background-image: url(../assets/windows.png); }
+  .skil-14 { background-image: url(../assets/github.png); }
+  .skil-15 { background-image: url(../assets/figma.png); }
+  .skil-16 { background-image: url(../assets/vscode.png); }
+  .skil-17 { background-image: url(../assets/vercel.png); }
+  
+
+
+
+
+
