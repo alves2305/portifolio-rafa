@@ -82,8 +82,12 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      margin-bottom:200px ;
     }
-    
+    .contain3__section3 h2 {
+      margin: 0 auto;
+      border-bottom: solid var(--cinza-claro) 3px;
+    }
     .contain3__section3 {
       display: flex;
       align-items: center;

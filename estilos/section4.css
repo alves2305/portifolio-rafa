@@ -1,6 +1,6 @@
-.section-4 {
+.section4 {
     padding: 0 35px;
-    height: 260vh !important;
+    height: 250vh !important;
     
   }
   
@@ -83,6 +83,65 @@
   
 
 
+  @media (min-width: 769px) and (max-width: 1366px) {
+    .section4{
+      height: 200vh !important;
+    }
+    .contain-section-4 {
+      padding: 0px 35px;
+    }
+    .paragrafo-section-4 {
+      margin: 0 150px;
+    }
+    .titulo-section-4 h2 {
+      margin: 0 auto;
+      border-bottom: solid var(--cinza-claro) 3px;
+      width: 99px;
+    }
+    .paragrafo-diferencial-4 {
+      margin-bottom: 100px !important;
+    }
 
+
+    /* botoes e elemntos */
+  .botoes-section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+
+  .contain-skils-back, 
+  .contain-skils-front,
+  .contain-skils-ferramentas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .contain-skils-back .skil-1, 
+  .contain-skils-back .skil-2, 
+  .contain-skils-back .skil-3,
+  .contain-skils-back .skil-4, 
+  .contain-skils-back .skil-5, 
+  .contain-skils-back .skil-6,
+  .contain-skils-front .skil-7, 
+  .contain-skils-front .skil-8, 
+  .contain-skils-front .skil-9, 
+  .contain-skils-front .skil-10, 
+  .contain-skils-front .skil-11, 
+  .contain-skils-ferramentas .skil-12, 
+  .contain-skils-ferramentas .skil-13, 
+  .contain-skils-ferramentas .skil-14, 
+  .contain-skils-ferramentas .skil-15, 
+  .contain-skils-ferramentas .skil-16, 
+  .contain-skils-ferramentas .skil-17 {
+    flex: 0 0 20%;
+    max-width: 30%;
+    margin: 10px;
+  }
+    
+  }
 
 

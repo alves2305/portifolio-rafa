@@ -19,9 +19,13 @@
 
 .contain__section2 h2 {
   margin: 0 auto;
+  border-bottom: solid var(--cinza-claro) 3px;
   font-size: 25px;
   font-weight: 600;
-  border-bottom: solid var(--cinza-claro) 3px;
+  
+}
+.paragrafo {
+  hyphens: auto;
 }
 
 .itens_lista {
@@ -63,9 +67,8 @@
     margin: 40px 150px;
   }
   .paragrafo {
-    font-size: 30px !important;
-    hyphens: auto;
-    line-height: 35px;
+    font-size: 25px !important;
+    line-height: 30px !important;
   }
   .contain__section2 {
     display: flex;
