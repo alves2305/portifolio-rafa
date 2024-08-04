@@ -1,6 +1,6 @@
 .section4 {
     padding: 0 35px;
-    height: 250vh !important;
+    height: 230vh !important;
     
   }
   
@@ -85,7 +85,7 @@
 
   @media (min-width: 769px) and (max-width: 1366px) {
     .section4{
-      height: 200vh !important;
+      height: 180vh !important;
     }
     .contain-section-4 {
       padding: 0px 35px;
