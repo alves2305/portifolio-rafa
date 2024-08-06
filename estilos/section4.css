@@ -83,7 +83,7 @@
   
 
 
-  @media (min-width: 769px) and (max-width: 1366px) {
+  @media (min-width: 769px) and (max-width: 13660px) {
     .section4{
       height: 180vh !important;
     }
@@ -144,4 +144,15 @@
     
   }
 
+
+  /* para telas grandes */
+  @media (min-width: 1500px) {
+    .section4 {
+        height: 100vh !important;
+    }
+    .titulo-principal__section5 {
+      margin-bottom: 10px !important;
+    }
+  }
+    
 

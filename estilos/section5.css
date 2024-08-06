@@ -115,7 +115,7 @@
     width: 261px;
   }
 
-  @media (min-width: 769px) and (max-width: 1366px){
+  @media (min-width: 769px) and (max-width: 13660px){
 
   .titulo-principal__section5 {
     margin-bottom: 100px;
@@ -133,7 +133,7 @@
   
   }
 
-  @media (min-width: 769px) and (max-width: 1366px) {
+  @media (min-width: 769px) and (max-width: 13660px) {
     .titulo-principal__section5 h2 {
       margin: 0 auto;
       border-bottom: solid var(--cinza-claro) 3px;

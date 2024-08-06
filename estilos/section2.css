@@ -59,7 +59,7 @@
     margin-top: 10px;
 }
 
-@media (min-width: 769px) and (max-width: 1366px) {
+@media (min-width: 769px) and (max-width: 13660px) {
   .section2{
     height: 120vh;
   }
@@ -67,7 +67,7 @@
     margin: 40px 150px;
   }
   .paragrafo {
-    font-size: 25px !important;
+    font-size: 25px;
     line-height: 30px !important;
   }
   .contain__section2 {
@@ -88,5 +88,15 @@
     font-size: 20px;
     hyphens: auto;
     
+  }
+}
+
+/* para telas grandes */
+@media (min-width: 1499px) {
+  .section2 {
+      height: 30vh;
+  }
+  .paragrafo{
+    font-size: 50px !important ;
   }
 }

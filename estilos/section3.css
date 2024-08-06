@@ -76,7 +76,7 @@
     display: none; /* Começa invisível */
   }
 
-  @media (min-width: 769px) and (max-width: 1366px) {
+  @media (min-width: 769px) and (max-width: 13660px) {
     .section3 {
       display: flex;
       align-items: center;
@@ -130,4 +130,13 @@
       gap: 50px; /* Espaço entre os projetos */
     }
   }
+
+  /* para telas grandes */
+@media (min-width: 1500px) {
+  .section3 {
+      height: 120vh;
+      margin-bottom: 10px !important;
+  }
+  
+}
   
