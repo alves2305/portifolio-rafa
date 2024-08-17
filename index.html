@@ -248,17 +248,17 @@
     <div class="contatos__section5">
 
       <div class="form-container">
-        <form class="form">
+        <form class="form" action="send_email.php" method="POST">
           <div class="form-group">
-            <label for="email">Digite seu e-mail</label>
-            <input type="text" id="email" name="email" required="">
+              <label for="email">Digite seu e-mail</label>
+              <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
-            <label for="textarea">Como eu posso te ajudar?</label>
-            <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+              <label for="textarea">Como eu posso te ajudar?</label>
+              <textarea name="message" id="textarea" rows="10" cols="50" required></textarea>
           </div>
-          <button class="botao" type="submit">enviar</button>
-        </form>
+          <button class="botao" type="submit">Enviar</button>
+      </form>
       </div>
       
     </div>
