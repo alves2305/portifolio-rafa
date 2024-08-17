@@ -47,3 +47,17 @@ function abrirArquivos() {
   window.open(certificadoURL, '_blank');
 }
 
+(function() {
+  emailjs.init("service_05ju0hq");
+})();
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault(); // Impede o comportamento padrão do formulário
+
+  emailjs.sendForm('service_05ju0hq', 'template_nynv6sn', this)
+      .then(function(response) {
+          alert('Mensagem enviada com sucesso!', response.status, response.text);
+      }, function(error) {
+          alert('Ocorreu um erro ao enviar a mensagem. Tente novamente.', error);
+      });
+});
